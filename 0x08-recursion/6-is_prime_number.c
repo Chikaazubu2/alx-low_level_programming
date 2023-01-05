@@ -6,7 +6,7 @@ int check_prime(int, int);
  * @n: is number
  * Return: integer
  */
-int is _prime_number(int n)
+int is_prime_number(int n)
 {
 	return (check_prime(n, 1));
 }
