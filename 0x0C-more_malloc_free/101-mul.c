@@ -118,14 +118,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		prod--;
 	}
 
-	prod--;
-
-	while (zeroes--)
-	{
-		*prod = '0';
-		prod--;
-	}
-
 	for (; mult_len >= 0; mult_len--, mult--, prod--)
 	{
 		if (*mult < '0' || *mult > '9')
